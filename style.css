@@ -1,0 +1,392 @@
+@import url("https://fonts.googleapis.com/css2?family=Martel+Sans:wght@200;300;400;600;700;800;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Martel+Sans:wght@200;300;400;600;700;800;900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  background-color: black;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+}
+
+/* MAIN */
+.main {
+  height: 70vh;
+  background-image: url(Images/img1.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: max(1200px, 100vw);
+  position: relative;
+}
+
+.main .box1 {
+  height: 70vh;
+  width: 100%;
+  opacity: 0.45;
+  position: absolute;
+  top: 0px;
+  background-color: black;
+}
+
+/* LOGO */
+
+.logo1 {
+  width: 148px;
+  height: 40px;
+  position: relative;
+  z-index: 10;
+}
+
+.nav {
+  max-width: 50vw;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 20px;
+  height: 60px;
+}
+
+.btn1 {
+  position: relative;
+  z-index: 10;
+  backdrop-filter: blur(20px);
+  width: 127px;
+  height: 32px;
+  border-radius: 7px;
+  background-color: black;
+  color: whitesmoke;
+  opacity: 0.69;
+  text-align: center;
+  border: 1px solid white;
+}
+
+.btn1 option {
+  background-color: white;
+  color: black;
+}
+
+.btn2 {
+  position: relative;
+  z-index: 10;
+  background-color: red;
+  color: white;
+  width: 77px;
+  height: 32px;
+  border-radius: 7px;
+  border: none;
+  margin-left: 20px;
+}
+
+/* HERO BOX */
+
+.hero {
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  height: 100%;
+  font-family: "Martial Sans", sans-serif;
+  gap: 20px;
+  padding: 0 30px;
+}
+
+.hero .text1 {
+  font-weight: bolder;
+  font-size: 48px;
+  text-align: center;
+}
+
+.hero .text2 {
+  font-weight: 400px;
+  font-size: 24px;
+  text-align: center;
+}
+
+.hero text3 {
+  font-weight: 400px;
+  font-size: 20px;
+  text-align: center;
+}
+
+.email {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+.email .embx1 {
+  width: 365px;
+  height: 56px;
+  background-color: black;
+  opacity: 0.69;
+  color: white;
+  padding-left: 15px;
+  border-radius: 7px;
+  border: 1px solid white;
+}
+
+.email .embx2 {
+  width: 214px;
+  height: 56px;
+  background-color: red;
+  border: none;
+  border-radius: 4px;
+  color: white;
+  font-weight: 700;
+  font-size: 22px;
+}
+
+/* Seperation Line */
+.sep_line {
+  height: 8px;
+  background-color: rgb(46, 44, 44);
+  margin-top: -80px;
+}
+
+/* HERO BOX 2 */
+.herobox2 {
+  height: 626px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.herobox2 .hero2_box1 {
+  width: 636px;
+  height: 477px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: start;
+  color: white;
+}
+
+.herobox2 .hero2_box2 {
+  width: 636px;
+  height: 477px;
+}
+
+.hero2_box1 span {
+  font-size: 48px;
+  font-weight: bolder;
+}
+
+.hero2_box1 p {
+  font-size: 20px;
+}
+
+.sep_line2 {
+  height: 8px;
+  background-color: rgb(46, 44, 44);
+  margin-top: 0px;
+}
+
+.hero2_box2 img {
+  position: absolute;
+  z-index: 1;
+}
+
+.hero2_box2 video {
+  width: 610px;
+  height: 265px;
+  position: relative;
+  left: 10px;
+  top: 100px;
+  z-index: 0;
+}
+
+/* HERO BOX 3 */
+
+.herobox3 {
+  height: 626px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.herobox3 .hero3_box1 {
+  width: 636px;
+  height: 477px;
+}
+
+.herobox3 .hero3_box2 {
+  width: 636px;
+  height: 477px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: start;
+  color: white;
+}
+
+.hero3_box2 span {
+  font-size: 48px;
+  font-weight: bolder;
+}
+
+.hero3_box2 p {
+  font-size: 20px;
+}
+
+/* HERO BOX 4 */
+
+.herobox4 {
+  height: 626px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.herobox4 .hero4_box1 {
+  width: 636px;
+  height: 477px;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: start;
+}
+
+.herobox4 .hero4_box2 {
+  width: 636px;
+  height: 477px;
+}
+
+.hero4_box1 span {
+  font-size: 48px;
+  font-weight: bolder;
+}
+
+.hero4_box1 p {
+  font-size: 20px;
+}
+
+.hero4_box2 img {
+  position: absolute;
+  z-index: 2;
+}
+
+.hero4_box2 video {
+  position: relative;
+  width: 570px;
+  height: 215px;
+  top: 35px;
+  left: 25px;
+}
+
+/* HERO BOX 5 */
+.herobox5 {
+  height: 626px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.herobox5 .hero5_box1 {
+  width: 636px;
+  height: 477px;
+}
+
+.herobox5 .hero5_box2 {
+  width: 636px;
+  height: 477px;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: start;
+}
+
+.hero5_box2 span {
+  font-size: 48px;
+  font-weight: bolder;
+}
+
+.hero5_box2 p {
+  font-size: 20px;
+}
+
+/* QUESTIONS */
+
+.faq {
+  height: 900px;
+  background-color: black;
+  color: white;
+}
+
+.faq h2 {
+  text-align: center;
+  font-size: 48px;
+  font-weight: bolder;
+  margin-top: 70px;
+}
+
+.faqbox {
+  background-color: rgb(45, 45, 45);
+  width: 1200px;
+  height: 10px;
+  padding: 39px;
+  margin: 10px auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  cursor: pointer;
+  font-size: 22px;
+}
+
+.line {
+  text-align: center;
+  margin-top: 40px;
+  font-size: 22px;
+  margin-bottom: 20px;
+}
+
+.sep_line4 {
+  height: 7px;
+  background-color: rgb(45, 45, 45);
+  margin-top: 5px;
+}
+
+/* FOOTER */
+
+.footer {
+  background-color: black;
+  width: 100%;
+  height: 400px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.footcontent {
+  color: white;
+  width: 1158px;
+  height: 300px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.footcontent ul {
+  list-style: none;
+}
+
+.footcontent li {
+  padding: 10px;
+}
+
+.sanjay {
+  color: white;
+  text-align: center;
+}

@@ -1,0 +1,195 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: sans-serif;
+  color: white;
+}
+
+/* MAIN */
+body {
+  height: 100%;
+  width: 100%;
+  background-color: black;
+}
+
+.background {
+  height: 900px;
+}
+
+.bgimg {
+  background-image: url(Images/img1.jpg);
+  height: 920px;
+  width: 100%;
+  position: relative;
+  background-size: cover;
+  background-position: center center;
+}
+
+.blackbox {
+  height: 1060px;
+  width: 100%;
+  margin-top: -65px;
+  position: absolute;
+  background-color: black;
+  opacity: 0.44;
+}
+
+.logo img {
+  width: 150px;
+  height: 40px;
+  position: relative;
+  margin-left: 400px;
+  margin-top: 20px;
+  z-index: 10;
+}
+
+/* MID BOX */
+.midbox {
+  width: 450px;
+  height: 741px;
+  background-color: black;
+  opacity: 0.77;
+  position: absolute;
+  left: 37%;
+  top: 10%;
+}
+
+.midbox h1 {
+  color: white;
+  font-weight: 800;
+  position: relative;
+  left: 60px;
+  top: 50px;
+}
+
+form {
+  margin-top: 70px;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+}
+
+input {
+  width: 314px;
+  height: 56px;
+  background-color: black;
+  border-radius: 7px;
+  color: white;
+  border: 1px solid whitesmoke;
+  padding-left: 17px;
+}
+
+::placeholder {
+  color: white;
+  opacity: 1;
+}
+
+form .btn1 {
+  background-color: red;
+  color: white;
+  width: 333px;
+  height: 40px;
+  border: none;
+  border-radius: 7px;
+  font-size: 17px;
+  font-weight: bold;
+}
+
+form .btn2 {
+  width: 333px;
+  height: 40px;
+  background-color: rgba(59, 54, 55, 1);
+  color: white;
+  font-size: 16px;
+  border-radius: 7px;
+  border: none;
+}
+
+.rem_box {
+  display: flex;
+  justify-content: start;
+  margin-top: 25px;
+  margin-left: 57px;
+}
+
+.rem_box span {
+  margin-left: 7px;
+}
+
+.rem {
+  height: 17px;
+  width: 17px;
+  display: inline;
+  position: relative;
+}
+
+.end_txt {
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  margin-left: 55px;
+  margin-top: 27px;
+  gap: 10px;
+}
+
+.alltxt {
+  margin-top: 20px;
+}
+
+.txt1 {
+  font-size: 17px;
+}
+
+.txt2 {
+  font-size: 12px;
+  color: #8c8c8c;
+}
+
+.txt2 a {
+  color: blue;
+  text-decoration: none;
+}
+
+/* FOOTER */
+.footer {
+  height: 320px;
+  width: 100%;
+  background-color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.foot {
+  width: 1755px;
+  height: 166px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  margin-top: -100px;
+  z-index: 10;
+}
+
+.foot:hover {
+  cursor: pointer;
+}
+
+li:hover {
+  text-decoration: underline;
+}
+
+.foot ul {
+  list-style: none;
+}
+
+.foot li {
+  padding: 10px;
+}
+
+.sanjay {
+  margin-top: -50px;
+  text-align: center;
+}
